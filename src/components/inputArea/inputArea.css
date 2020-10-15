@@ -1,0 +1,54 @@
+.inputButton {
+  width: 37px;
+  height: 37px;
+  font-size: 2rem;
+  margin: 30px 7px;
+  border: 0;
+  background: none;
+  color: darkblue;
+  cursor: pointer;
+}
+
+.inputButton:focus {
+  outline: none;
+}
+
+.inputIcons {
+  display: flex;
+  padding-top: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.icons {
+  width: 25%;
+  text-align: center;
+}
+
+.icons > div {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: auto;
+  cursor: pointer;
+}
+
+.Hints {
+  background-image: url('/hints.svg');
+}
+
+.Clear {
+  background-image: url('/reset.svg');
+}
+
+.Erase {
+  background-image: url('/erase.svg');
+}
+
+.Notes {
+  background-image: url('/notes.svg');
+}

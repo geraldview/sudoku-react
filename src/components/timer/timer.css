@@ -1,0 +1,14 @@
+.timer {
+  position: relative;
+  top: -5px;
+  width: 475px;
+  font-family: Arial;
+  font-size: 1rem;
+  text-align: right;
+  margin: auto;
+}
+
+.timer i {
+  margin-left: 8px;
+  cursor: pointer;
+}

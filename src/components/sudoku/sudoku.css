@@ -1,0 +1,95 @@
+.sudoku {
+  margin: 100px auto;
+}
+.sudokuBoard {
+  margin: auto;
+  width: 474px;
+  
+}
+
+.paused input {
+  color: #f8f8f8 !important;
+  background: #f8f8f8 !important;
+}
+
+.paused {
+  display: block;
+}
+
+.sukokuRow:first-child {
+  border-top: 2px solid black;
+}
+
+.sukokuRow:last-child {
+  border-bottom: 2px solid black;
+}
+
+.sukokuRow:nth-child(3n):not(:last-child) {
+  border-bottom: 1px solid black;
+}
+
+.sudokuCell {
+  display: inline-flex;
+  border: 1px solid darkgrey;
+}
+
+.sudokuCell:first-child {
+  border-left: 3px solid black;
+}
+
+.sudokuCell:last-child {
+  border-right: 3px solid black;
+}
+
+.sudokuCell:nth-child(3n):not(:last-child) {
+  border-right: 2px solid black;
+}
+
+.sudokuCell input {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  text-align: center;
+  font-size: 2rem;
+  caret-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.userInput input {
+  color: rgb(60, 102, 180);
+}
+
+input:focus {
+  outline: none;
+  background: #eeeeee;
+}
+
+.selectedRow input,
+.selectedCol input,
+.selectedGroup input {
+  background: #f0f2f2;
+}
+
+.selectedCell input {
+  background: #d6f0f0;
+}
+
+.pauseResumeContainer {
+  position: fixed;
+  width: 100%;
+  top: 300px;
+}
+
+.pauseResume {
+  margin: auto;
+  width: 115px;
+  height: 115px;
+  
+  background: rgba(225, 225, 225, 1);
+  background-image: url('/play.svg');
+  border-radius: 55px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
